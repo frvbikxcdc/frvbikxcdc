@@ -1,0 +1,21 @@
+{"name: Build and Test Java Project
+
+runs-on: ubuntu-latest
+
+steps:
+
+- name: Checkout code
+	syntax: shell
+		run: echo 'Checkout code'
+
+- name: Build Java project
+	syntax: shell
+		run: echo 'Build Java project'
+
+- name: Test Java project
+	syntax: shell
+		run: echo 'Test Java project'
+
+- name: Display success message
+	syntax: shell
+		run: echo 'Build and Test Java Project: Success!'"}
